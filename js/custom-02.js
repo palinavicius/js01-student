@@ -26,6 +26,7 @@ for (let i = 10; i > 0; i--) {
 }
 
 
+
 /*
 Užduotis 3
 Per mėnesį avių skaičius išauga 4 kartais. Naudodami while loop ir tris nurodytus kintamuosius, išveskite avių skaičių 12 mėnesių.
