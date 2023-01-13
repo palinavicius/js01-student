@@ -3,13 +3,27 @@ Užduotis 1
 Naudodami while loop, konsolėje parašykite nuo 10 iki 1. 
 */
 
+let number = 10;
+console.log(number);
+console.log(number - 1);
+console.log(number - 2);
+console.log(number - 3);
+console.log(number - 4);
+console.log(number - 5);
+console.log(number - 6);
+console.log(number - 7);
+console.log(number - 8);
+console.log(number - 9);
+
 
 
 /* 
 Užduotis 2
 Naudodami for loop, konsolėje parašykite nuo 10 iki 1.
 */
-
+for (let i = 10; i > 0; i--) {
+    console.log(i);
+}
 
 
 /*
@@ -26,13 +40,43 @@ Po 1 mėnesio(-ių) bus 16 avių!
 Po 2 mėnesio(-ių) bus 64 avių!
 */
 
+let numAvys = 4;
+let numMenuo = 1;
+let kiekMenSpausdinti = 12;
 
+while (numMenuo <= 12) {
+    if (numMenuo === 1) {
+        numAvys = numAvys * 4;
+    } else {
+        numAvys = numAvys * 4;
+    }
+
+    console.log("Po" + " " + numMenuo + " " + "mėnesio(-ių) bus" + ":" + numAvys + " " + "avių!");
+  
+    numMenuo++;
+}
 
 /*
 Užduotis 4
 Atlikite užduotį JS 03 su for loop
 */
 
+let Avys = 4;
+let Menuo = 1;
+let kiekSpausdinti = 12;
+
+
+for (let Menuo = 1; Menuo <= 12; Menuo++) {
+    
+    if (Menuo === 1) {
+        Avys = Avys * 4;
+    } else {
+        Avys = Avys * 4;
+    }
+
+    console.log("Po" + " " + Menuo + " " + "mėnesio(-ių) bus" + ":" + Avys + " " + "avių!");
+    Menuo++;
+}
 
 
 /*
