@@ -137,14 +137,12 @@ if (kiekis < 1000){
 
 }
 
-if ((kiekis > 1000 && kiekis < 2000)) {
-     console.log("Zvakiu kiekis" + ":" + kiekis + "/" + "Galutine kaina" + ":" + ((gkaina - (gkaina * 0.03)) / kiekis));
-}
-
 if ((kiekis > 2000) * 0.04) {
     console.log("Zvakiu kiekis" + ":" + kiekis + "/" + "Galutine kaina"  + ":" + ((gkaina - (gkaina * 0.04)) / kiekis));
 }
-
+if ((kiekis > 1000 && kiekis < 2000)) {
+     console.log("Zvakiu kiekis" + ":" + kiekis + "/" + "Galutine kaina" + ":" + ((gkaina - (gkaina * 0.03)) / kiekis));
+}
 /* 08.
 Naudokite funkciją Math.random(). Sukurkite tris kintamuosius su atsitiktinėm reikšmėm nuo 0 iki 100. Paskaičiuokite jų aritmetinį vidurkį. Tada aritmetinį vidurkį atmetus tas reikšmes, kurios yra mažesnės nei 10 arba didesnės nei 90. Abu vidurkius atspausdinkite. Rezultatus apvalinkite iki sveiko skaičiaus.
 */
